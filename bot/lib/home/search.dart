@@ -56,13 +56,15 @@ class _searchstate extends State<search> {
               CrossAxisAlignment.start, // Align children at the top
           children: [
             ClipOval(
+                child: Container(
+              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
                 'assets/profile.jpg',
                 width: 40,
                 height: 40,
                 fit: BoxFit.cover,
               ),
-            ),
+            )),
             SizedBox(
                 width:
                     20), // Add spacing between the profile picture and details
@@ -71,13 +73,470 @@ class _searchstate extends State<search> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
-                    children: [Text("Name:"), Text("Gowrish")],
+                    children: [
+                      Text(
+                        "Name:",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Gowrish",
+                        ),
+                      )
+                    ],
                   ),
                   Row(
-                    children: [Text("Going to:"), Text("USA")],
+                    children: [
+                      Text(
+                        "Going to",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Usa",
+                        ),
+                      )
+                    ],
                   ),
                   Row(
-                    children: [Text("On:"), Text("12/08/2003")],
+                    children: [
+                      Text(
+                        "Date",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "12-11-20024",
+                        ),
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    Widget card2() {
+      return Container(
+        margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
+        child: Row(
+          crossAxisAlignment:
+              CrossAxisAlignment.start, // Align children at the top
+          children: [
+            ClipOval(
+                child: Container(
+              margin: EdgeInsets.only(top: 10),
+              child: Image.asset(
+                'assets/profile.jpg',
+                width: 40,
+                height: 40,
+                fit: BoxFit.cover,
+              ),
+            )),
+            SizedBox(
+                width:
+                    20), // Add spacing between the profile picture and details
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Text(
+                        "Name:",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Gowrish",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Going to",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Usa",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Date",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "12-11-20024",
+                        ),
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    Widget card3() {
+      return Container(
+        margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
+        child: Row(
+          crossAxisAlignment:
+              CrossAxisAlignment.start, // Align children at the top
+          children: [
+            ClipOval(
+                child: Container(
+              margin: EdgeInsets.only(top: 10),
+              child: Image.asset(
+                'assets/profile.jpg',
+                width: 40,
+                height: 40,
+                fit: BoxFit.cover,
+              ),
+            )),
+            SizedBox(
+                width:
+                    20), // Add spacing between the profile picture and details
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Text(
+                        "Name:",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Gowrish",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Going to",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Usa",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Date",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "12-11-20024",
+                        ),
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    Widget card4() {
+      return Container(
+        margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
+        child: Row(
+          crossAxisAlignment:
+              CrossAxisAlignment.start, // Align children at the top
+          children: [
+            ClipOval(
+                child: Container(
+              margin: EdgeInsets.only(top: 10),
+              child: Image.asset(
+                'assets/profile.jpg',
+                width: 40,
+                height: 40,
+                fit: BoxFit.cover,
+              ),
+            )),
+            SizedBox(
+                width:
+                    20), // Add spacing between the profile picture and details
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Text(
+                        "Name:",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Gowrish",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Going to",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Usa",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Date",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "12-11-20024",
+                        ),
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    Widget card5() {
+      return Container(
+        margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
+        child: Row(
+          crossAxisAlignment:
+              CrossAxisAlignment.start, // Align children at the top
+          children: [
+            ClipOval(
+                child: Container(
+              margin: EdgeInsets.only(top: 10),
+              child: Image.asset(
+                'assets/profile.jpg',
+                width: 40,
+                height: 40,
+                fit: BoxFit.cover,
+              ),
+            )),
+            SizedBox(
+                width:
+                    20), // Add spacing between the profile picture and details
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Text(
+                        "Name:",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Gowrish",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Going to",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Usa",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Date",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "12-11-20024",
+                        ),
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    Widget card6() {
+      return Container(
+        margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
+        child: Row(
+          crossAxisAlignment:
+              CrossAxisAlignment.start, // Align children at the top
+          children: [
+            ClipOval(
+                child: Container(
+              margin: EdgeInsets.only(top: 10),
+              child: Image.asset(
+                'assets/profile.jpg',
+                width: 40,
+                height: 40,
+                fit: BoxFit.cover,
+              ),
+            )),
+            SizedBox(
+                width:
+                    20), // Add spacing between the profile picture and details
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Text(
+                        "Name:",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Gowrish",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Going to",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Usa",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Date",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "12-11-20024",
+                        ),
+                      )
+                    ],
                   ),
                 ],
               ),
@@ -88,31 +547,43 @@ class _searchstate extends State<search> {
     }
 
     return Scaffold(
-      appBar: PreferredSize(
-          preferredSize:
-              Size.fromHeight(80), // Increase the height of the app bar
-          child: AppBar(
-            automaticallyImplyLeading: false,
-            backgroundColor: Colors.black, // Set the background color to black
-            centerTitle: true,
-            title: Container(
-              margin: EdgeInsets.only(top: 20),
-              height: 40, // Decrease the height of the search bar
-              width: double.infinity,
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(8),
-              ),
-              padding: EdgeInsets.symmetric(horizontal: 16),
-              child: TextField(
-                decoration: InputDecoration(
-                  hintText: "Search...",
-                  border: InputBorder.none,
+        appBar: PreferredSize(
+            preferredSize:
+                Size.fromHeight(80), // Increase the height of the app bar
+            child: AppBar(
+              automaticallyImplyLeading: false,
+              backgroundColor:
+                  Colors.black, // Set the background color to black
+              centerTitle: true,
+              title: Container(
+                margin: EdgeInsets.only(top: 20),
+                height: 40, // Decrease the height of the search bar
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: "Search...",
+                    border: InputBorder.none,
+                  ),
                 ),
               ),
-            ),
-          )),
-      body: card(),
-    );
+            )),
+        body: SingleChildScrollView(
+          child: Container(
+            child: Column(children: [
+              card(),
+              card2(),
+              card3(),
+              card4(),
+              card4(),
+              card5(),
+              card6()
+            ]),
+          ),
+        ));
   }
 }
