@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 
-class profile extends StatefulWidget {
+class Abhiram extends StatefulWidget {
   @override
-  _ProfileState createState() => _ProfileState();
+  _AbhiramState createState() => _AbhiramState();
 }
 
-class _ProfileState extends State<profile> {
+class _AbhiramState extends State<Abhiram> {
   bool ageEditing = false;
   bool emailEditing = false;
   bool genderEditing = false;
@@ -44,9 +44,7 @@ class _ProfileState extends State<profile> {
                 radius: 50,
                 backgroundImage: _imageFile != null
                     ? FileImage(_imageFile!)
-                    : const NetworkImage(
-                            'https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgAAAA?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7')
-                        as ImageProvider,
+                    : const AssetImage('assets/Abhiram.jpg') as ImageProvider,
               ),
               Container(
                 height: 30,
@@ -62,7 +60,7 @@ class _ProfileState extends State<profile> {
                 ),
               ),
               Text(
-                'Elon Musk',
+                'Abhiram',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -85,13 +83,13 @@ class _ProfileState extends State<profile> {
         // ... (your existing code for the profile header)
 
         // Create a box that has detail string at left, detail value in the middle, and an edit button at the right
-        _buildDetailRow("Age", "20", false, true, ageEditing, () {
+        _buildDetailRow("Age", "21", false, true, ageEditing, () {
           setState(() {
             ageEditing = !ageEditing;
           });
         }),
         _buildDetailRow(
-            "Email", "ElonMusk@outlook.com", false, true, emailEditing, () {
+            "Email", "AbhiramPabolu@outlook.com", false, true, emailEditing, () {
           setState(() {
             emailEditing = !emailEditing;
           });
@@ -106,7 +104,7 @@ class _ProfileState extends State<profile> {
             countryEditing = !countryEditing;
           });
         }),
-        _buildDetailRow("State", "Andhra Pradesh", false, true, stateEditing,
+        _buildDetailRow("State", "Pondi Cherry", false, true, stateEditing,
             () {
           setState(() {
             stateEditing = !stateEditing;
@@ -114,7 +112,7 @@ class _ProfileState extends State<profile> {
         }),
         _buildDetailRow(
             "Address",
-            "SRM AP Neerukonda, Mangalagiri, Andhra Pradesh 522502",
+            "Pondi Cherry",
             true,
             true,
             addressEditing, () {
@@ -155,10 +153,8 @@ class _ProfileState extends State<profile> {
           ),
           if (overflow && !isEditing)
             SizedBox(
-              width: 150,
               child: Text(
-                'SRM AP Neerukonda, Mangalagiri, Andhra Pradesh 522502',
-                softWrap: true,
+              value,
                 style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.w400,

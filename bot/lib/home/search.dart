@@ -57,11 +57,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Karthik.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -84,7 +83,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Gowrish",
+                          "Karthik",
                         ),
                       )
                     ],
@@ -101,7 +100,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "Monalia",
                         ),
                       )
                     ],
@@ -118,7 +117,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "22-10-2025",
                         ),
                       )
                     ],
@@ -140,11 +139,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Gowrish.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -184,7 +182,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "USA",
                         ),
                       )
                     ],
@@ -201,7 +199,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "18-06-2025",
                         ),
                       )
                     ],
@@ -223,11 +221,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Abhiram.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -250,7 +247,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Gowrish",
+                          "Abhiram",
                         ),
                       )
                     ],
@@ -267,7 +264,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "USA",
                         ),
                       )
                     ],
@@ -284,7 +281,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "01-12-2024",
                         ),
                       )
                     ],
@@ -306,11 +303,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Mukesh.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -333,7 +329,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Gowrish",
+                          "Mukesh",
                         ),
                       )
                     ],
@@ -350,7 +346,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "Australia",
                         ),
                       )
                     ],
@@ -367,7 +363,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "18-03-2025",
                         ),
                       )
                     ],
@@ -389,11 +385,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Pranav.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -416,7 +411,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Gowrish",
+                          "Pranav",
                         ),
                       )
                     ],
@@ -433,7 +428,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "Monalia",
                         ),
                       )
                     ],
@@ -450,7 +445,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "25-12-2023",
                         ),
                       )
                     ],
@@ -472,11 +467,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Lokesh.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -499,7 +493,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Gowrish",
+                          "Lokesh",
                         ),
                       )
                     ],
@@ -516,7 +510,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "Switzerland",
                         ),
                       )
                     ],
@@ -533,7 +527,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "15-12-2024",
                         ),
                       )
                     ],
@@ -574,11 +568,11 @@ class _searchstate extends State<search> {
             )),
         body: SingleChildScrollView(
           child: Container(
+            color: Colors.white,
             child: Column(children: [
               card(),
               card2(),
               card3(),
-              card4(),
               card4(),
               card5(),
               card6()
