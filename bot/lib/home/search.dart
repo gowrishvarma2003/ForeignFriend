@@ -1,4 +1,3 @@
-import 'package:bot/home/Abhiram.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -58,11 +57,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Karthik.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -85,7 +83,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Gowrish",
+                          "Karthik",
                         ),
                       )
                     ],
@@ -102,7 +100,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "Monalia",
                         ),
                       )
                     ],
@@ -119,7 +117,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "22-10-2025",
                         ),
                       )
                     ],
@@ -141,11 +139,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Gowrish.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -185,7 +182,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "USA",
                         ),
                       )
                     ],
@@ -202,7 +199,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "18-06-2025",
                         ),
                       )
                     ],
@@ -216,95 +213,6 @@ class _searchstate extends State<search> {
     }
 
     Widget card3() {
-      return GestureDetector(
-        onTap: (() {
-          Navigator.push(
-              context, MaterialPageRoute(builder: (context) => Abhiram()));
-        }),
-        child: Container(
-          margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
-          child: Row(
-            crossAxisAlignment:
-                CrossAxisAlignment.start, // Align children at the top
-            children: [
-              ClipOval(
-                  child: Container(
-                margin: EdgeInsets.only(top: 10),
-                child: Image.asset(
-                  'assets/profile.jpg',
-                  width: 40,
-                  height: 40,
-                  fit: BoxFit.cover,
-                ),
-              )),
-              SizedBox(
-                  width:
-                      20), // Add spacing between the profile picture and details
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Text(
-                          "Name:",
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                        Container(
-                          margin: EdgeInsets.only(left: 5),
-                          child: Text(
-                            "Gowrish",
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Text(
-                          "Going to",
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                        Container(
-                          margin: EdgeInsets.only(left: 5),
-                          child: Text(
-                            "Usa",
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Text(
-                          "Date",
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                        Container(
-                          margin: EdgeInsets.only(left: 5),
-                          child: Text(
-                            "12-11-20024",
-                          ),
-                        )
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      );
-    }
-
-    Widget card4() {
       return Container(
         margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
         child: Row(
@@ -313,11 +221,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Abhiram.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -340,7 +247,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Gowrish",
+                          "Abhiram",
                         ),
                       )
                     ],
@@ -357,7 +264,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "USA",
                         ),
                       )
                     ],
@@ -374,7 +281,89 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "01-12-2024",
+                        ),
+                      )
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    Widget card4() {
+      return Container(
+        margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
+        child: Row(
+          crossAxisAlignment:
+              CrossAxisAlignment.start, // Align children at the top
+          children: [
+            ClipOval(
+                child: Container(
+              child: Image.asset(
+                'assets/Mukesh.jpg',
+                width: 50,
+                height: 50,
+                fit: BoxFit.cover,
+              ),
+            )),
+            SizedBox(
+                width:
+                    20), // Add spacing between the profile picture and details
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Text(
+                        "Name:",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Mukesh",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Going to",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Australia",
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Date",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(left: 5),
+                        child: Text(
+                          "18-03-2025",
                         ),
                       )
                     ],
@@ -396,11 +385,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Pranav.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -423,7 +411,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Gowrish",
+                          "Pranav",
                         ),
                       )
                     ],
@@ -440,7 +428,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "Monalia",
                         ),
                       )
                     ],
@@ -457,7 +445,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "25-12-2023",
                         ),
                       )
                     ],
@@ -479,11 +467,10 @@ class _searchstate extends State<search> {
           children: [
             ClipOval(
                 child: Container(
-              margin: EdgeInsets.only(top: 10),
               child: Image.asset(
-                'assets/profile.jpg',
-                width: 40,
-                height: 40,
+                'assets/Lokesh.jpg',
+                width: 50,
+                height: 50,
                 fit: BoxFit.cover,
               ),
             )),
@@ -507,7 +494,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Gowrish",
+                          "Lokesh",
                         ),
                       )
                     ],
@@ -524,7 +511,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "Usa",
+                          "Switzerland",
                         ),
                       )
                     ],
@@ -541,7 +528,7 @@ class _searchstate extends State<search> {
                       Container(
                         margin: EdgeInsets.only(left: 5),
                         child: Text(
-                          "12-11-20024",
+                          "15-12-2024",
                         ),
                       )
                     ],
@@ -582,11 +569,11 @@ class _searchstate extends State<search> {
             )),
         body: SingleChildScrollView(
           child: Container(
+            color: Colors.white,
             child: Column(children: [
               card(),
               card2(),
               card3(),
-              card4(),
               card4(),
               card5(),
               card6()
