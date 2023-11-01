@@ -1,3 +1,4 @@
+import 'package:bot/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -19,6 +20,7 @@ class _loginstate extends State<login> {
       // Provide the custom ID while adding the document
       await firestore.collection('users').doc(customId).set(data);
       print('Data stored successfully!');
+      Navigator.push(context, MaterialPageRoute(builder: (context) => home(email: email)));
     } catch (e) {
       print('Error storing data: $e');
     }

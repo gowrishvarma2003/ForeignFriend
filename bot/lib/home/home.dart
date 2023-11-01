@@ -3,20 +3,19 @@ import 'package:bot/home/add.dart';
 import 'package:bot/home/search.dart';
 import 'package:bot/home/profile.dart';
 import 'package:bot/home/homepage.dart';
+
 class home extends StatefulWidget {
+  var email;
+  home({required this.email});
   State<StatefulWidget> createState() => _homestate();
 }
 
 class _homestate extends State<home> {
   int _currentIndex = 0;
-  final List<Widget> _pages = [
-    homepage(),
-    search(),
-    add(),
-    profile()
-  ];
 
   Widget build(BuildContext context) {
+      var email = widget.email;
+  final List<Widget> _pages = [homepage(), search(), add(email:email), profile()];
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
@@ -44,6 +43,3 @@ class _homestate extends State<home> {
     );
   }
 }
-
-
-
