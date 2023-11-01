@@ -1,3 +1,5 @@
+import 'package:bot/home/chat.dart';
+import 'package:bot/home/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -32,6 +34,6 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: home(email: "gowrishvarma@gmail.com",));
+        home: home(email:"gowrishvarma@gmail.com"));
   }
 }
