@@ -23,11 +23,10 @@ class _homepagestate extends State<homepage> {
             children: [
               ClipOval(
                   child: Container(
-                margin: EdgeInsets.only(top: 10),
                 child: Image.asset(
-                  'assets/profile.jpg',
-                  width: 40,
-                  height: 40,
+                  'assets/Abhiram.jpg',
+                  width: 50,
+                  height: 50,
                   fit: BoxFit.cover,
                 ),
               )),
@@ -50,7 +49,7 @@ class _homepagestate extends State<homepage> {
                         Container(
                           margin: EdgeInsets.only(left: 5),
                           child: Text(
-                            "Gowrish",
+                            "Abhiram",
                           ),
                         )
                       ],
@@ -67,7 +66,7 @@ class _homepagestate extends State<homepage> {
                         Container(
                           margin: EdgeInsets.only(left: 5),
                           child: Text(
-                            "Usa",
+                            "USA",
                           ),
                         )
                       ],
@@ -84,7 +83,7 @@ class _homepagestate extends State<homepage> {
                         Container(
                           margin: EdgeInsets.only(left: 5),
                           child: Text(
-                            "12-11-20024",
+                            "01-12-2024",
                           ),
                         )
                       ],
@@ -112,11 +111,10 @@ class _homepagestate extends State<homepage> {
             children: [
               ClipOval(
                   child: Container(
-                margin: EdgeInsets.only(top: 10),
                 child: Image.asset(
-                  'assets/profile.jpg',
-                  width: 40,
-                  height: 40,
+                  'assets/Pranav.jpg',
+                  width: 50,
+                  height: 50,
                   fit: BoxFit.cover,
                 ),
               )),
@@ -139,7 +137,7 @@ class _homepagestate extends State<homepage> {
                         Container(
                           margin: EdgeInsets.only(left: 5),
                           child: Text(
-                            "Gowrish",
+                            "Pranav",
                           ),
                         )
                       ],
@@ -156,7 +154,7 @@ class _homepagestate extends State<homepage> {
                         Container(
                           margin: EdgeInsets.only(left: 5),
                           child: Text(
-                            "Usa",
+                            "Monalia",
                           ),
                         )
                       ],
@@ -173,7 +171,7 @@ class _homepagestate extends State<homepage> {
                         Container(
                           margin: EdgeInsets.only(left: 5),
                           child: Text(
-                            "12-11-20024",
+                            "25-12-2023",
                           ),
                         )
                       ],
