@@ -17,7 +17,7 @@ class _SignupState extends State<Signup> {
   String gender = 'Male';
   String country = '';
   String state = '';
-  String city = '';
+  String address = '';
 
   // create a function that returns a widget
   @override
@@ -61,7 +61,7 @@ class _SignupState extends State<Signup> {
                 height: 40,
                 child: TextField(
                   onChanged: (value) {
-                    password = value;
+                    age = value;
                   },
                   cursorHeight: 15,
                   style: const TextStyle(
@@ -115,7 +115,7 @@ class _SignupState extends State<Signup> {
                     Expanded(
                       child: TextField(
                         onChanged: (value) {
-                          password = value;
+                          country = value;
                         },
                         cursorHeight: 15,
                         style: const TextStyle(
@@ -138,7 +138,7 @@ class _SignupState extends State<Signup> {
                     Expanded(
                       child: TextField(
                         onChanged: (value) {
-                          password = value;
+                          state = value;
                         },
                         cursorHeight: 15,
                         style: const TextStyle(
@@ -166,7 +166,7 @@ class _SignupState extends State<Signup> {
                 height: 40,
                 child: TextField(
                   onChanged: (value) {
-                    password = value;
+                    address = value;
                   },
                   cursorHeight: 15,
                   style: const TextStyle(

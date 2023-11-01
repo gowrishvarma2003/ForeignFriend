@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 
-class profile extends StatefulWidget {
+class Pranav extends StatefulWidget {
   @override
-  _ProfileState createState() => _ProfileState();
+  _PranavState createState() => _PranavState();
 }
 
-class _ProfileState extends State<profile> {
+class _PranavState extends State<Pranav> {
   bool ageEditing = false;
   bool emailEditing = false;
   bool genderEditing = false;
@@ -44,8 +44,7 @@ class _ProfileState extends State<profile> {
                 radius: 50,
                 backgroundImage: _imageFile != null
                     ? FileImage(_imageFile!)
-                    : const NetworkImage(
-                            'https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgAAAA?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7')
+                    : const AssetImage('assets/Pranav.jpg')
                         as ImageProvider,
               ),
               Container(
@@ -62,7 +61,7 @@ class _ProfileState extends State<profile> {
                 ),
               ),
               Text(
-                'Elon Musk',
+                'Pranav',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -91,7 +90,7 @@ class _ProfileState extends State<profile> {
           });
         }),
         _buildDetailRow(
-            "Email", "ElonMusk@outlook.com", false, true, emailEditing, () {
+            "Email", "pranavnamburi@gmail.com", false, true, emailEditing, () {
           setState(() {
             emailEditing = !emailEditing;
           });
@@ -114,7 +113,7 @@ class _ProfileState extends State<profile> {
         }),
         _buildDetailRow(
             "Address",
-            "SRM AP Neerukonda, Mangalagiri, Andhra Pradesh 522502",
+            "Guntur, Andhra Pradesh",
             true,
             true,
             addressEditing, () {
@@ -155,10 +154,9 @@ class _ProfileState extends State<profile> {
           ),
           if (overflow && !isEditing)
             SizedBox(
-              width: 150,
+              width: 100,
               child: Text(
-                'SRM AP Neerukonda, Mangalagiri, Andhra Pradesh 522502',
-                softWrap: true,
+                value,
                 style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.w400,
