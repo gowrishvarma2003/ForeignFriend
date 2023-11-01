@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "662676273278",
+    "firebase_url": "https://gowrish-test-default-rtdb.firebaseio.com",
+    "project_id": "gowrish-test",
+    "storage_bucket": "gowrish-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662676273278:android:1c73baa01e25fffcc9402f",
+        "android_client_info": {
+          "package_name": "com.example.bot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN00d6eLa2EUDXuySjxuRf-PVi3fYAIz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
