@@ -26,9 +26,9 @@ class _homestate extends State<home> {
         },
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'My rides'),
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'My rides'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'profile'),
+          BottomNavigationBarItem(icon: Icon(Icons.search_rounded), label: 'Search'),
+          BottomNavigationBarItem(icon: Icon(Icons.add_circle), label: 'Add'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
           // BottomNavigationBarItem(
           //     icon: Image.asset(
           //       "assets/images/vechile_register.png"  ,
@@ -38,6 +38,7 @@ class _homestate extends State<home> {
           //     label: 'Register'),
         ],
         selectedItemColor: Colors.black,
+        unselectedItemColor: Colors.grey,
       ),
       body: _pages[_currentIndex],
     );

@@ -484,6 +484,7 @@ class _searchstate extends State<search> {
                   Row(
                     children: [
                       Text(
+
                         "Name:",
                         style: TextStyle(
                           fontSize: 16,
