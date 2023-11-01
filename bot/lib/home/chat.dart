@@ -77,7 +77,11 @@ class ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Chat App'),
+        backgroundColor: Colors.white,
+        title: Text(
+          'Abiram',
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: Column(
         children: <Widget>[

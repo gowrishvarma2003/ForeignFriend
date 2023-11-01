@@ -29,9 +29,10 @@ class ChatScreenState extends State<ChatScreen> {
     _messages.insert(0, ChatMessage(text: 'Hello', isCurrentUser: false));
     _messages.insert(0, ChatMessage(text: 'Hi', isCurrentUser: true));
     _messages.insert(
-        0, ChatMessage(text: 'Do you like to join with in flight', isCurrentUser: false));
-    _messages.insert(
-        0, ChatMessage(text: 'Sure i will', isCurrentUser: true));
+        0,
+        ChatMessage(
+            text: 'Do you like to join with in flight', isCurrentUser: false));
+    _messages.insert(0, ChatMessage(text: 'Sure i will', isCurrentUser: true));
   }
 
   void _handleSubmitted(String text) {
@@ -77,7 +78,11 @@ class ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Chat App'),
+        backgroundColor: Colors.white,
+        title: Text(
+          'Pranav',
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: Column(
         children: <Widget>[
