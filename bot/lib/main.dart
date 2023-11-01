@@ -32,6 +32,6 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: home());
+        home: home(email: "gowrishvarma@gmail.com",));
   }
 }
