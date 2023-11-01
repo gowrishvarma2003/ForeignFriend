@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-
+import 'package:bot/home/add.dart';
+import 'package:bot/home/search.dart';
+import 'package:bot/home/profile.dart';
+import 'package:bot/home/homepage.dart';
 class home extends StatefulWidget {
   State<StatefulWidget> createState() => _homestate();
 }
@@ -7,9 +10,9 @@ class home extends StatefulWidget {
 class _homestate extends State<home> {
   int _currentIndex = 0;
   final List<Widget> _pages = [
-    HomePage(),
-    AboutPage(),
-    SettingsPage(),
+    homepage(),
+    search(),
+    add(),
     profile()
   ];
 
@@ -42,38 +45,5 @@ class _homestate extends State<home> {
   }
 }
 
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text('Home Page'),
-    );
-  }
-}
 
-class AboutPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text('About Page'),
-    );
-  }
-}
 
-class SettingsPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text('Settings Page'),
-    );
-  }
-}
-
-class profile extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text('profile page'),
-    );
-  }
-}
