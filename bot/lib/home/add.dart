@@ -27,7 +27,7 @@ Widget country_input() {
           contery = number;
         },
         decoration: InputDecoration(
-          labelText: "country",
+          labelText: "Country",
           fillColor: Colors.black,
           border: OutlineInputBorder(),
           labelStyle: TextStyle(color: Colors.black),
@@ -62,7 +62,7 @@ Widget state_input() {
           state = statename;
         },
         decoration: InputDecoration(
-          labelText: "state",
+          labelText: "State",
           fillColor: Colors.black,
           border: OutlineInputBorder(),
           labelStyle: TextStyle(color: Colors.black),
@@ -97,7 +97,7 @@ Widget city_input() {
           city = cityname;
         },
         decoration: InputDecoration(
-          labelText: "country",
+          labelText: "City",
           fillColor: Colors.black,
           border: OutlineInputBorder(),
           labelStyle: TextStyle(color: Colors.black),
@@ -132,7 +132,7 @@ Widget to_country_input() {
           tocontery = number;
         },
         decoration: InputDecoration(
-          labelText: "country",
+          labelText: "Country",
           fillColor: Colors.black,
           border: OutlineInputBorder(),
           labelStyle: TextStyle(color: Colors.black),
@@ -167,7 +167,7 @@ Widget to_state_input() {
           tostate = statename;
         },
         decoration: InputDecoration(
-          labelText: "state",
+          labelText: "State",
           fillColor: Colors.black,
           border: OutlineInputBorder(),
           labelStyle: TextStyle(color: Colors.black),
@@ -202,7 +202,7 @@ Widget to_city_input() {
           tocity = cityname;
         },
         decoration: InputDecoration(
-          labelText: "country",
+          labelText: "City",
           fillColor: Colors.black,
           border: OutlineInputBorder(),
           labelStyle: TextStyle(color: Colors.black),
@@ -238,7 +238,7 @@ Widget discription_input() {
           discription = detailes;
         },
         decoration: InputDecoration(
-          labelText: "country",
+          labelText: "Description",
           fillColor: Colors.black,
           border: OutlineInputBorder(),
           labelStyle: TextStyle(color: Colors.black),
@@ -364,7 +364,7 @@ class _addstate extends State<add> {
                   _register();
                 },
                 child: Text(
-                  "uplode",
+                  "Upload",
                   style: TextStyle(
                     backgroundColor: Colors.black,
                     color: Colors.white,
@@ -376,16 +376,19 @@ class _addstate extends State<add> {
     return Scaffold(
         body: SingleChildScrollView(
       child: Container(
+        margin: EdgeInsets.all(25),
         child: Column(children: [
+          SizedBox(
+            height: 50,
+          ),
           Container(
-            child: Text("From:"),
+            child: Text("From:", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold)),
           ),
           country_input(),
           state_input(),
           city_input(),
           Container(
-            width: MediaQuery.of(context).size.width,
-            child: Text("To:"),
+            child: Text("To:", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold)),
           ),
           to_country_input(),
           to_state_input(),
