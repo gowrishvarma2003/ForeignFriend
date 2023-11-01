@@ -378,7 +378,6 @@ class _addstate extends State<add> {
       child: Container(
         child: Column(children: [
           Container(
-            width: MediaQuery.of(context).size.width,
             child: Text("From:"),
           ),
           country_input(),

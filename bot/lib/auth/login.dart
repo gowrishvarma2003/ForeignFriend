@@ -1,3 +1,4 @@
+import 'package:bot/auth/signup.dart';
 import 'package:bot/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
